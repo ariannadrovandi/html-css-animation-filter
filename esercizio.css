@@ -53,3 +53,12 @@
 .ex-6-img:hover{
     filter: grayscale(2);
 }
+
+/*esercizio 7*/
+.ex-7-img{
+    transition: 3s;
+}
+
+.ex-7-img:hover{
+    filter:contrast(2) grayscale(2) ;
+}
