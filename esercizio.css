@@ -60,5 +60,15 @@
 }
 
 .ex-7-img:hover{
-    filter:contrast(2) grayscale(2) ;
+    filter:contrast(2) grayscale(2);
+}
+
+/*esercizio 8*/
+.ex-8-img{
+    transition: 3s;
+}
+
+.ex-8-img:hover{
+    filter:contrast(2) grayscale(2);
+    border-radius: 15px;
 }
