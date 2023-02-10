@@ -72,3 +72,15 @@
     filter:contrast(2) grayscale(2);
     border-radius: 15px;
 }
+
+/*esercizio 9*/
+.ex-9-img{
+    transition: 3s;
+}
+
+.ex-9-img:hover{
+    filter:contrast(2) grayscale(2);
+    border-radius: 15px;
+    width: 170px;
+    height: 120px;
+}
