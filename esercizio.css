@@ -87,10 +87,26 @@
 
 /*esercizio 10*/
 .ex-10-icon{
-    animation: spin 1s linear infinite;
+    animation: spin 2s linear infinite;
 }
 @keyframes spin{
     0%{
         transform: rotate(2turn);
+    }
+}
+
+/*esercizio 11*/
+.ex-11-icon:hover{
+    animation: spinlittle 3s linear;
+}
+@keyframes spinlittle{
+    0%{
+        transform: rotate(0);
+    }
+    90%{
+        transform: rotate(280deg);
+    }
+    100%{
+        transform: rotate(0);
     }
 }
