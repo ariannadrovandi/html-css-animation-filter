@@ -84,3 +84,13 @@
     width: 170px;
     height: 120px;
 }
+
+/*esercizio 10*/
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(2turn);
+    }
+}
